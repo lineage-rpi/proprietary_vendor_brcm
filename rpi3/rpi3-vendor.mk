@@ -16,4 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/brcm/rpi3/proprietary/vendor/firmware/brcm/BCM43430A1.hcd:system/vendor/firmware/brcm/BCM43430A1.hcd \
+    vendor/brcm/rpi3/proprietary/vendor/lib/egl/libEGL_swiftshader.so:system/vendor/lib/egl/libEGL_swiftshader.so \
+    vendor/brcm/rpi3/proprietary/vendor/lib/egl/libGLESv1_CM_swiftshader.so:system/vendor/lib/egl/libGLESv1_CM_swiftshader.so \
+    vendor/brcm/rpi3/proprietary/vendor/lib/egl/libGLESv2_swiftshader.so:system/vendor/lib/egl/libGLESv2_swiftshader.so \
+    vendor/brcm/rpi3/proprietary/vendor/lib/hw/gralloc.rpi3.so:system/vendor/lib/hw/gralloc.rpi3.so \
+    vendor/brcm/rpi3/proprietary/vendor/lib/hw/hwcomposer.rpi3.so:system/vendor/lib/hw/hwcomposer.rpi3.so \
     vendor/brcm/rpi3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
