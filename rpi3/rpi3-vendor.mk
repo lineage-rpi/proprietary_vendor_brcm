@@ -17,4 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/brcm/rpi3/proprietary/vendor/firmware/brcm/BCM43430A1.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/BCM43430A1.hcd \
     vendor/brcm/rpi3/proprietary/vendor/firmware/brcm/BCM4345C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/BCM4345C0.hcd \
+    vendor/brcm/rpi3/proprietary/vendor/lib/hw/gralloc.rpi3.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.rpi3.so \
+    vendor/brcm/rpi3/proprietary/vendor/lib/hw/hwcomposer.rpi3.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.rpi3.so \
     vendor/brcm/rpi3/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
