@@ -20,7 +20,5 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/brcm/rpi-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/brcm/rpi-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-    vendor/brcm/rpi-common/proprietary/vendor/lib/hw/gralloc.rpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.rpi.so \
-    vendor/brcm/rpi-common/proprietary/vendor/lib/hw/hwcomposer.rpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.rpi.so \
     vendor/brcm/rpi-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/brcm/rpi-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
