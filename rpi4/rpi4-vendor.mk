@@ -6,11 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/brcm/rpi4
 
 PRODUCT_COPY_FILES += \
-    vendor/brcm/rpi4/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    vendor/brcm/rpi4/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
+    vendor/brcm/rpi4/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
+    vendor/brcm/rpi4/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/brcm/rpi4/proprietary/vendor/firmware/brcm/BCM4345C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/BCM4345C0.hcd \
     vendor/brcm/rpi4/proprietary/vendor/firmware/brcm/BCM4345C5.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/BCM4345C5.hcd \
-    vendor/brcm/rpi4/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so
+    vendor/brcm/rpi4/proprietary/vendor/lib64/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvaidl.so
 
 PRODUCT_PACKAGES += \
-    manifest_android.hardware.drm@1.4-service.widevine
+    manifest_android.hardware.drm-service.widevine
